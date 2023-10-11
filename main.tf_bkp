@@ -1,0 +1,11 @@
+resource local_file dog_res {
+ filename = "dog.txt"
+ content = "Dog is pet anaimal"
+ file_permission = "0600"
+}
+
+resource local_file cat_res {
+ filename  = "cat.txt"
+ content = "cat is also pet animal"
+ file_permission = "0644"
+}
